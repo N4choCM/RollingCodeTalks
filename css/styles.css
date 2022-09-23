@@ -1,0 +1,122 @@
+.ancla:before{
+    display:block;
+    content:" ";
+    margin-top: -74px;
+    height: 74px;
+}
+
+.img-logo{
+    width: 200px;
+}
+
+.text-tickets{
+    color: #89c9f2;
+}
+
+.text-tickets:hover{
+    color:#34a5ec;
+}
+
+.text-tickets:visited{
+    color: #89c9f2;
+}
+
+/* carousel */
+#main .carousel-item img{
+    max-height: 70vh;
+    filter: grayscale(70%);
+    object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    z-index:1;
+}
+
+/* speakers */
+.img-speakers{
+    height: 250px;
+    object-fit:cover;
+}
+
+/* lugar y fecha */
+.img-site{
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+/* formulario */
+textarea{
+    resize: none;
+}
+
+/* footer */
+.footer{
+    background-color: #a00b0a;
+    padding: 10px 0px;
+}
+
+.footer .row{
+    min-height: 100px;
+    text-align: center;
+}
+
+.footer-items{
+    text-decoration:none;
+    color:white;
+}
+
+.footer-items:hover{
+    color: rgb(169, 166, 166);
+}
+
+/* 404 */
+#error{
+    width: 50vw;
+}
+
+body{
+    min-width: 100vw;
+}
+
+.row{
+    margin-right: 0;
+}
+
+#button{
+    border: 2px solid black;
+    background-color: #a00b0a;
+    color: white;
+}
+
+#button:hover{
+    color: #a00b0a;
+    background-color: white;
+    border: 2px solid #a00b0a;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#button-comprar{
+    border: 2px solid black;
+    background-color: #34a5ec;
+    color: white;
+}
+
+
+
