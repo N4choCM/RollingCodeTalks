@@ -118,5 +118,12 @@ body{
     color: white;
 }
 
+#button-comprar:hover{
+    border: 2px solid #34a5ec;
+    background-color: white;
+    color: #34a5ec;
+    font-weight: bold;
+}
+
 
 
