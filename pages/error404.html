@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web oficial de las jornadas tituladas Rolling Code Talks, las cuales se celebrarán en 
+    Tucumán del 1 al 7 de octubre de 2022.">
+    <meta name="author" content="Nacho Campos Martí">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-png">
     <title>RollingCode Talks</title>
 </head>
-<!-- TODO: Al hacer click en los botones rojos del main, se genera automáticamente un scroll horizontal que no consigo arreglar. -->
-<!-- TODO: Los mismos botones, en versión small, no se centran totalmente. -->
 <body class="d-flex flex-column vh-100 justify-content-between vh-100">
     <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
@@ -81,14 +82,8 @@
 
                 </div>
                 <div class="col-12 col-md">
-                    <a class="footer-items" href="/pages/error404.html">Asistentes</a>
-
-
-
             </div>
-
         </div>
-
     </footer>
     <!-- Modal: es buena práctica colocarlo bajo el footer -->
 <div class="modal fade" id="modalTicket" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -116,15 +111,12 @@
     </div>
   </div>
 </div>
-    
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script>
       (() => {
   'use strict'
-
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
   const forms = document.querySelectorAll('.needs-validation')
-
   // Loop over them and prevent submission
   Array.from(forms).forEach(form => {
     form.addEventListener('submit', event => {
@@ -132,7 +124,6 @@
         event.preventDefault()
         event.stopPropagation()
       }
-
       form.classList.add('was-validated')
     }, false)
   })
